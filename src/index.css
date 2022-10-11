@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+  color: rgb(241, 164, 62);
+}
+.img-div{
+  overflow: hidden;
+}
+img{
+  width:20rem;
+  height: 40vh;
+  transition: all ease 0.4s;
+}
+img:hover{
+  transform: scale(1.2);
+}
+h1{
+  text-align: center;
+  color: rgb(241, 164, 62);
+}
